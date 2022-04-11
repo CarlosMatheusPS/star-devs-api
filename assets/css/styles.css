@@ -116,15 +116,16 @@ main .phrases-container button {
   font-size: 1.7em;
   font-weight: 600;
 
-  background-color: var(--yellow);
-  color: black;
+  background-color: transparent;
+  border: 1px rgb(75, 0, 75) solid;
+  color: var(--yellow);
 
-  transition: 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
 }
 
 main .phrases-container button:hover {
-  border-radius: 2rem;
-  color: black;
+  box-shadow: rgba(75, 0, 75, 0.4) 5px 5px, rgba(75, 0, 75, 0.3) 10px 10px, rgba(75, 0, 75, 0.2) 15px 15px, rgba(75, 0, 75, 0.1) 20px 20px, rgba(75, 0, 75, 0.05) 25px 25px;
+  color: rgb(75, 0, 75);
   background-color: var(--white);
 }
 
